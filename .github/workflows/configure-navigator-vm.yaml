@@ -5,11 +5,11 @@ on:
       hostname:
         description: 'hostname'
         required: false
-        default: hostname
+        default: bastion.ccxm2.dynamic.opentlc.com
       gitrepo:
         description: 'git repo location'
         required: false
-        default: https://github.com/Red-Hat-SE-RTO/ocp4-ai-svc-universal.git
+        default: https://github.com/dmarini11/ocp4-ai-svc-universal.git
     
 
 jobs:
